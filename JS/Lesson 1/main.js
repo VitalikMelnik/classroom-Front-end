@@ -6,6 +6,11 @@ var r = {
     name : "vitalik" ,
     age : 18,
 
+
+
 }
 
 var v = 0;
+
+
+

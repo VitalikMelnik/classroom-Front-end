@@ -20,7 +20,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSfrRz085RmjqEc99Cjm0I-xaD0mH1Ww5nWrYcne
 
 1. This site [html+css (rus)](https://pages.github.com/).
 2. This site [html+css+js (eng)](https://www.w3schools.com).
-3. This site [js task (eng)](ttps://www.codewars.com/dashboard ).
+3. This site [js task (eng)](https://www.codewars.com/dashboard).
 
 
 

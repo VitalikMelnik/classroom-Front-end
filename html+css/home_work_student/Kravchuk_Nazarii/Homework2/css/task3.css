@@ -1,0 +1,4 @@
+.name, .email, .sex, .status, .date, 
+.skills, .photo, .comments, .button {
+    margin-bottom: 15px;
+}

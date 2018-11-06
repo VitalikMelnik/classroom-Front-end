@@ -1,4 +1,4 @@
-console.log(2);
+var t ='     ';
 
+console.log(t);
 
-var t =0;

@@ -1,0 +1,11 @@
+.nthOfType li:first-of-type {
+    color: red;
+}
+
+.nthOfType li:last-of-type {
+    color: blue;
+}
+
+.not li:not(:first-of-type) {
+    color: yellow;
+}

@@ -1,0 +1,7 @@
+p:first-of-type {
+    font-size: 30px;
+}
+
+p:last-of-type {
+    color: #999;
+}

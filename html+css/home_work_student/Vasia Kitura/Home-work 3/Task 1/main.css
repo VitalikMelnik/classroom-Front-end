@@ -1,0 +1,55 @@
+h1{
+    text-align: right;
+    color: orange;
+}
+p:first-letter {
+    color: red;
+   }
+   em{
+       background-color: #008100;
+       color: #fff; 
+   }
+h2:nth-of-type(1) {
+    color: orange;
+}
+h2:nth-of-type(2){
+    color: blue;
+}
+ul li {
+    font-weight: bold;
+}
+
+ol {
+    color: red;
+}
+ul li:nth-of-type(1) ol {
+    color: green;
+}
+
+ul:nth-of-type(1) li:nth-of-type(1) ol {
+    color: grey;
+}
+
+table {
+    border: 1px solid #000;
+    width: 350px;
+}
+
+td, tr {
+    border: 1px solid #000;
+}
+
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr td:nth-of-type(1) {
+    color: #FFA600;
+}
+
+tbody tr td:not(:nth-of-type(1)) {
+    background-color: #008100;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+li:nth-child(3) a, li:nth-child(4) a, li:nth-child(5) a {
+    color: #f70;
+}
+
+li:nth-child(6) a, li:nth-child(7) a, li:nth-child(8) a {
+    color: #666;
+}
+
+li:nth-child(1) a, li:nth-child(2) a {
+    color: #0000F3;
+}
+
+a[target="_blank"]:after {
+    content: "⇱";
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    transform: scale(-1, 1);
+}

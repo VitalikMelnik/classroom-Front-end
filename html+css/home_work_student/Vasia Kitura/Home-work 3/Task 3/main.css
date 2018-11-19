@@ -1,0 +1,9 @@
+.list li:first-of-type{
+    color: orangered;
+}
+.list li:last-of-type{
+    color: aqua;
+}
+.array li:not(:first-of-type){
+    color: rgb(18, 218, 11);
+}

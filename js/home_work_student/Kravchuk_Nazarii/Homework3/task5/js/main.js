@@ -9,6 +9,10 @@ function task5(a, b) {
             while (l < a) {
                 doska = doska + hashtag;
                 l++;
+                if (l == a) {
+                    doska = doska + '\n';
+                    break;
+                }
                 doska = doska + space;
                 l++;
                 if (l == a) {
@@ -20,6 +24,10 @@ function task5(a, b) {
             while (k < a) {
                 doska = doska + space;
                 k++;
+                if (k == a) {
+                    doska = doska + '\n';
+                    break;
+                }
                 doska = doska + hashtag;
                 k++;
                 if (k == a) {

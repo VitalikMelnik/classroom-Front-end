@@ -1,0 +1,10 @@
+table {
+    width: 60%;
+}
+table, td, tr {
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+td:not(:nth-child(1)):nth-child(odd) {
+    background-color: #c9c92c;
+}

@@ -1,0 +1,48 @@
+h1 {
+    text-align: right;
+    color: #FFA600;
+}
+em {
+    background-color: #008100;
+    color: #fff;
+}
+p:first-letter {
+    color: #FF202C;
+}
+h2:nth-of-type(1) {
+    color: rgb(255, 166, 0);
+}
+h2:nth-of-type(2) {
+    color: rgb(0, 0, 255);
+}
+ul li {
+    font-weight: bold;
+}
+ol {
+    color: rgb(247, 29, 40);
+}
+ul li:nth-of-type(1) ol {
+    color: rgb(53, 131, 58);
+}
+ul:nth-of-type(1) li:nth-of-type(1) ol {
+    color: rgb(132, 138, 141);
+}
+table {
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+}
+td, tr {
+    border: 1px solid rgb(0, 0, 0);
+}
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+tbody tr td:nth-of-type(1) {
+    color: rgb(255, 166, 0);
+}
+tbody tr td:not(:nth-of-type(1)) {
+    text-align: center;
+    background-color: #026802;
+    color: rgb(255, 255, 255);
+}
